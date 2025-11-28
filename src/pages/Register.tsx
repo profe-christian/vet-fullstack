@@ -66,7 +66,13 @@ function Register() {
         required
         onChange={handleChange}
       />
-
+      <input
+        type="text"
+        name="tipoUsuario"
+        placeholder="Tipo de usuario"
+        required
+        onChange={handleChange}
+      />
       <button type="submit">Registrar</button>
     </form>
   );

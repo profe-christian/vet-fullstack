@@ -31,9 +31,12 @@ export const UsersList = () => {
             </div>
           </div>
           <div className="row">
-            <div className="column-full">
+            <div className="column">
               <strong>Fecha de nacimiento:</strong>{" "}
               {new Date(user.fechaNacimiento).toLocaleDateString()}
+            </div>
+            <div className="column">
+              <strong>Tipo usuario:</strong>{ user.tipoUsuario}
             </div>
           </div>
         </div>
